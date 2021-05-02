@@ -1,0 +1,1011 @@
+shake: 2x LP1
+LP1+Axis L (3x Hat S disable)
+swing: Axis R (after 3xhat N)
+#also used with RP1
+Hat N/S + RP1+Axis R (N) - forward / backward
+tilt LP1+Axis R
+point: LP2+Axis L
+Hat2
+
+2: LP1
+1 (jump): LP2
+A: RP1
+B (point click): Hat E
+2xLP2
+-: Hat S
++: Select
+Home: start
+D-pad: LP2 + Hat2
+C: Hat N
+Z: Hat W
+stick: Axis R
+
+
+1 nunchuk pozwala do 2 gestow zrobic (np swing i point)
+
+
+Klawiatura:
+Komendy
+Cursor Y+ 
+od srodka ekranu
+Axis Y+ 
+w gore kursor
+Click 0 
+LPM
+Click 1
+RPM	
+Click 2 
+ScrClick
+TAB
+
+CAPITAL
+Caps Lock
+LSHIFT
+
+LCONTROL
+(also break)
+APPS
+RMENU (RRMP)
+LMENU
+
+RMENU (alt)
+
+LWIN
+
+DIVIDE
+/
+BACKSLASH
+\
+NUMLOCK
+
+PRIOR
+pg up
+NEXT
+pg dn
+END
+
+HOME
+
+MULTIPLY
+*
+SUBSTRACT
+-
+ADD
++
+SCROLL
+FN+INSERT
+RETURN
+Enter
+SYSRQ
+fn+home/prt scr
+PAUSE
+NUMPADENTER
+
+
+
+DELETE
+
+DECIMAL
+numpaddelete
+NUMPAD0
+
+MINUS
+nie numpad substract
+EQUALS
+nie numpad add
+LBracket
+[
+SEMICOLON
+;
+APOSTROPHE
+"
+COMMA
+<
+PERIOD
+>
+SLASH
+?
+UP
+
+SPACE
+
+ESCAPE
+
+SLEEP
+
+GRAVE
+`
+
+
+
+
+Konflikt:
+VOLUMEUP
+
+
+--------------------
+
+Niebieskie + platforma zza
+przewracajace sie cos z sea
+zabijanie duszy skorup¹
+3 planetki
+save to slot 8
+
+TIlt kieruje ruchem kui kiedy jest spad
+Swing kieruje ruchem kiedy jeŸdi sie do tylu
+Swing zmienia kierunki w odwrotnej synchronizacji kiedy jest spad
+Swing zmienia kierunki kiedy jezdzi sie do tylu
+kontrolki sie buguja z axisem??
+
+Ustawienia: 
+1) oddzielne kontrolki/kombinacje
+2) kontrolki dla tilta lewo prawo takie same jak swing = brak kontroli przy spadzie
+3) dodatkowe 7 jako modyfikator dla zamiany z tiltem (jakby do przodu) 
+kiedy 8 zostaje jako przyspieszenie = nieoczekiwane kontrolki
+4) oddzielna konfiguracja 6 to 4 i 2 dol 8 gora, brak cofania ale mozna stabilizowac jazde prosta do tylu bez odwrotnej synchronizacji, enter jako skok
+(rezultat pozytywny)
+there is bug however when 8 changes to 2...
+
+pad
+1)  Rsticki LP1 do kontroli jazdy, wielokrotne klikanie do cofania, drganie do cofania
+
+green star 2 flip skok z 1 przed i od razu do tylu skok w locie shake
+
+Bugs
+1. You can load savestates for iso if extracted
+2. You cant use chance cubes when cheats on
+3. YOu dont lose withdrawal when exchanged bits (when loading game and changing saves)
+4. You can lose withdrawal x1000 after level (progress from certain save) after loading game
+5. When used cheats first savestate could be wrong, save also to slot
+6. Monitor if everything is ok after cheats (use chancecubes save to slot and file, try to load, exit, leave space and try on stable point)
+7. Ka¿da zmiana gry wymaga prze³adowania pliku savu / jednego racu dla odbudowy zyc lub cheata (zmiany z modelami obiektow powoduje zmiany niektorych levelow i puste etykiety). Nie powoduje to utraty withdrawal. Nowe gwiazdy prawdopodobnie trzeba zdobyæ na nowo lub prosperowaæ przejœcie przez cheaty. 
+8. Najlepiej jest zastosowaæ po jednorazowym przejœciu infinite bits albo oddzielnie savowaæ
+9. Aktywatory nie dzia³aj¹ po u¿yciu cheatów.
+10. Czasem mo¿e pojawiæ siê b³¹d po naniesieniu zmian dlatego trzeba oddzielnie savowaæ. Punkty posrednie nowych map mog¹ zawieraæ glicze.
+
+
+Anon A
+1 dzieñ temu (edytowany)
+obj file should be up to ~1MB. If you want it to be Mapparts then you need to add entry not to PlanetMapDataTable but ProductMapObjDataTable. Such objects requires paths.
+Someone should make tutorials about zones (important), adding planets (not objects), animations,  initial cam editing, adding stars (miscellanous), world editor, bdl 2 obj and maybe editing ASW.
+
+1. You need to use Blender 2.79b (2.82 exports UV meshes) 2. You need to make it triangulate from beginning 3. All object should be merged (animation view or uv edit or default - a - a - ctrl + j 4. All vertex should be triangle not mesh 5. Everything needs to have texture [not fatal] 6. You can put 10 - 15 objects or more (test every 5 objects) 7. Objects with spaces should be as independednt project 8. Texturising is done via selecting ctrl+tab faces in blender and using uv editing to open image NOT materials 9. To make scope you need to select edge and moving with pressed e or without it 10. Its better in down menu to enable selecting only visible objects 11. Use old given or newer version of SuperBMD 12. Better to use is ico sphere 13. Wall jump is needed to be disabled for lava (?) 14.. All objects except sphere, world and renders needs to be removed 15. Object can be about 50-100x larger than it video but it may lead to errors due to more processed data for tools 16. Copy textures from dumb folder into C: f.e. to use 17. shift + g select simillar area is helpful there 18. Delete all transparent textures with shift 19. Before changing shape apply textures and triangulate 20. BDL should be arround >5 kb, it seems you can't assign textures to vertex but whole mesh. I experience problem while having 3 textures (all working textures)
+I'm fighting against textures for now, need to remake whole model from scratch
+
+Beforeextraction.sav slot4
+Extracted2 stan gry po rozpakowaniu przed naniesieniem neo mario. slot5
+Extracted3 neo mario galaxy. slot6
+Jeœli perfect run siê nie poka¿e po przejœciu gwiazd i odnowieniu bitów u¿yæ cheata na beforextraction i zapisac do beforextractioncheat.sav.
+potem bêdziesz móg³ wróciæ z pe³nego beforeextractionsave do extracted3 z 4 ¿yciami...
+Budujesz inny save który jest uzupe³nieniem tego co jest teraz.
+
+zycia - jako punkty
+bity zeby dobic do 9999
+inna timelaps do ktorego mozna wejsc z 4 zyciami z kompletnego oryginalu, ogolnie dla bitow. 
+
+Transformations Code v0.1 [brkirch]
+C245C358 00000079
+48000005 7FA802A6
+38A00000 80DD015C
+38A50001 806D9A84
+80630024 8063012C
+80630010 38800015
+5484103A 7C63202E
+3885026C 7C84E8AE
+2C040000 4182001C
+7C6320AE 7C6300D0
+7CA72B78 48000155
+7D031838 7C663378
+2C05000D 4180FFB4
+88FD0158 2C070003
+40820008 38C0FFFF
+90DD0160 38600000
+907D028C 907D0290
+2C070000 418200D0
+38E0000C 48000115
+7D063039 41820058
+389D024C 38600001
+3D808005 618C8310
+7D8903A6 4E800421
+387D0259 3D808033
+618CFF30 7D8903A6
+4E800421 907D028C
+38810018 3D808004
+618CAB70 7D8903A6
+4E800421 3D808005
+618C8350 7D8903A6
+4E800421 807D0160
+38E0000D 480000AD
+7D031839 41820058
+389D024C 38600001
+3D808005 618C8310
+7D8903A6 4E800421
+387D027B 3D808033
+618CF970 7D8903A6
+4E800421 907D0290
+38810018 3D808004
+618CAB70 7D8903A6
+4E800421 3D808005
+618C8350 7D8903A6
+4E800421 80010024
+48000268 00010707
+00000000 00000000
+80E40000 54C807FF
+54C6F83E 4182001C
+7D04282E 91070000
+7C00386C 7C0004AC
+7C003FAC 4C00012C
+84E4000C 28070000
+4082FFD4 4E800020
+3D008000 2C070001
+41800038 5D08383E
+2C070003 4182002C
+41800008 5508F83E
+2C07000D 4181001C
+2C07000C 4180000C
+5508D83E 4E800020
+2C070007 4DA00020
+39000000 4E800020
+38630001 809EFAF4
+2C03000D 40810008
+38600001 2C030007
+4182001C 7C671B78
+7D2802A6 4BFFFF95
+7D2803A6 7D082039
+41A2FFD0 4E800020
+3D608030 616BAFB0
+7D6903A6 4E800421
+3D608030 616BB200
+7D6903A6 4E800421
+3D608030 616BAF80
+7D6903A6 4E800420
+00000000 00000000
+00000000 00835883
+73839389 5F834183
+43836583 80000000
+001C1A1B 18191D00
+00000000 22230095
+CF906783 49837583
+5783465B 8AE25D00
+00000000 00000000
+803C8644 4182007C
+60000000 803C821C
+41820018 60000000
+803C8298 41820118
+60000000 803C83F8
+41820098 60000000
+80405BF8 4082000C
+4800000C 803C88F8
+418200B4 60000000
+803C89F8 41820088
+60000000 00000000
+80387D70 A0830412
+38800000 80387D74
+2C040000 B0830412
+80387D78 4D820020
+4E800020 803B952C
+41820018 48000018
+803CB150 40820014
+48000014 803CBC9C
+B01F0700 60000000
+803CB620 4BC4FFD1
+60000000 803CB1F0
+4BC50401 60000000
+803CB938 4BC4F339
+60000000 803CB838
+4BC509D9 60000000
+803CB288 4BC50F89
+60000000 8038D6E0
+B01D0402 60000000
+8043F020 901F0024
+60000000 8043EC50
+4082000C 60000000
+8030AF7C 48000035
+00000000 00000000
+576F726C 644D6170
+46696C65 53656C65
+4D617269 6F466163
+60000000 00000000
+C22D2FA8 00000005
+48000005 7D6802A6
+816BFEC0 7C035840
+4182000C 88630074
+48000008 38600001
+60000000 00000000
+C230B4C8 00000006
+48000005 7C6802A6
+8063FE8C 7C03F840
+41820018 7C832378
+3803FF7D 7C000034
+5403D97E 48000008
+38600000 00000000
+C2237800 00000007
+7C8802A6 48000005
+7D8802A6 800CFE50
+7C001840 41820018
+800CFE54 7C001840
+4182000C 88030073
+48000008 38000001
+7C8803A6 00000000
+C22D4314 00000005
+48000005 7D6802A6
+80ABFE18 7C032840
+41820014 3D608002
+616B2BC0 7D6903A6
+4E800421 00000000
+C22302DC 00000006
+48000005 7D6802A6
+816BFDE4 396B0090
+7C0BF040 41820014
+3D608023 616B11C0
+7D6903A6 4E800421
+60000000 00000000
+C2031538 0000000A
+9421FF80 BC610008
+7CC802A6 90C10084
+48000005 7CA802A6
+8085FD9C 7C032040
+41820018 8085FDA0
+7C032040 4182000C
+88030074 48000008
+38000001 80C10084
+7CC803A6 B8610008
+38210080 00000000
+C233A334 00000008
+48000005 7D6802A6
+80A30000 816BFD58
+396B0100 7C055840
+4082001C 88AB0070
+2C050000 41820010
+38000004 38A00000
+98AB0070 98030004
+60000000 00000000
+C23BFED4 0000001B
+48000005 7FE802A6
+389FFD6C 38A00004
+38C0FFFF 4BFFFBD5
+809FFE24 3FC080B0
+84BE117C 7C042800
+40820014 809FFE28
+80BE0004 7C042800
+4182007C 809FFE2C
+80BE0000 7C042800
+40820014 809FFE30
+80BE0004 7C042800
+4182005C 809FFE34
+80BE0000 7C042800
+40820014 809FFE38
+80BE0004 7C042800
+41820020 38A00001
+98BFFBD8 389FFD14
+38A00008 80DFFBDC
+4BFFFB59 48000038
+38A00003 98BFFBD8
+389FFD14 38A00008
+38C0FFFF 4BFFFB3D
+4800001C 38A00000
+98BFFBD8 389FFD14
+38A00004 38C0FFFF
+4BFFFB21 3FE0806C
+60000000 00000000
+C24CEF30 0000003F
+801F0008 9421FF80
+BC610008 48000005
+7FC802A6 887EFAEE
+4BFFFB75 987EFAEE
+88DEFAEC 5404BFFE
+7CC52039 887EFAEF
+4182018C 809F0004
+548405EF 41820054
+68630010 987EFAEF
+5464D003 41810198
+68630020 987EFAEF
+546406B5 5463073E
+4082001C 987EFAEF
+809EFAF0 7C671B78
+4BFFFAD1 7D042278
+909EFAF0 987EFAEE
+887EFAED 68630001
+987EFAED 48000158
+5464E7FF 41820010
+38800007 989EFAEE
+989EFAEF 2C060003
+40820020 807EFAF0
+88FEFAEE 2C070007
+41820010 4BFFFA85
+7C684039 41820120
+389EFC80 38A00004
+38C0FFFF 4BFFFA35
+887EFAED 2C030000
+4182002C 80BEFD28
+399EFBB0 7D856050
+3C804800 518401BA
+909EFD30 389EFC80
+38A00008 38C0FFFF
+4BFFFA01 3D80803E
+618CDFE0 7D8903A6
+4E800421 80630014
+A08306F8 3BA00000
+2C040000 40820008
+8BBEFAEE 809EFC24
+2C040000 4182002C
+80A40170 28050000
+40820020 80840198
+80840004 80840010
+8084000C 80840000
+80A40020 90A40024
+7FA4EB78 38A00001
+38C00001 3D80803B
+618C93F0 7D8903A6
+4E800421 2C1D000C
+40820014 3D808030
+618CB200 7D8903A6
+4E800421 2C1D000D
+40820044 807EFC24
+3D80802D 618C34F0
+7D8903A6 4E800421
+4800002C 540405EF
+41820024 5464E7FF
+4182000C 38800007
+989EFAEE 887EFAEE
+987EFAEF 4BFFF9AD
+987EFAEE B8610008
+38210080 80010014
+60000000 00000000
+C24DC438 00000006
+3FE01FE6 63FFC82E
+7C04F840 41820018
+3FE08001 63FFC4A0
+7FE903A6 4E800421
+48000008 38600001
+60000000 00000000
+Credit goes to hetoan2 for:
+Powers Last Forever [hetoan2]
+Infinite Bee Mario Flight [hetoan2]
+to byæ mo¿e dzia³a na zmianê tranformacji po odblokowaniu ale dzia³a jedynie lot i to na innym savie...
+
+Ice
+043EE754 3860000X
+Not compatible with fly patches, needs reloading save. Power cycle compatible? No... 
+Replace X with:
+0 Normal
+1 Rainbow
+2 Fire
+3 Ice
+Mario mo¿e chodziæ po lawie i jest odporny na ogieñ (imitacja). Cheat dzia³a.
+4 Bee
+5 Spring
+6 Boo
+7 Flying
+ -----
+How to use:
+Button 2 cycles through this transformation list:
+Flying Mario
+Cloud Mario
+Rock Mario
+Rainbow Mario
+Fire Mario
+Bee Mario
+Spring Mario
+Boo Mario
+-------------------------------
+Button 1 applies/unapplies the selected transformation if it is loaded.  Holding button 2 and then pressing button 1 once resets the selected transformation to the the beginning of the transformation list.  Holding button 2 and then pressing button 1 twice toggles whether transformation enhancers are applied.  Holding button 2 and then pressing button 1 three times toggles whether the selected transformation is always loaded (to select a transformation which is not set to always be loaded, go to Starship Mario).
+----------------------------------
+The only transformation that is always available by default is Flying Mario.  Other transformations will only be loaded if the game requires it for the current galaxy or if they are manually toggled on from Starship Mario.
+
+AbekobeGalaxy Bouldergeist
+Astro SMG1 
+BigGalaxy Supermassive
+BigTree2Galaxy ...
+BigWaterfallG #Yoshi speedrun
+ChallengeGlider Glide Lava
+ChaosGravity #Slideout W6
+ChildRoom CUtscene ending 1
+CloudGarden #purple plasma
+DigMineGalaxy #bosswizard smg1
+DimensionBigCastle Grandmaster
+FlowerHighland honeyhive #1
+Ghostconveyor Ghastly galaxy
+GOroRockGalaxy Bowling
+HomeCenterGalaxy #bugs
+Honeybeevillage honeyhive 2
+Islandfleetgalaxy Neogalaxy G1 Gravity zegar
+KachikochiLava Shiverburn / End Of Universe
+KingofKings Boss blitz
+KoopaJrLv2Galaxy #Bowser Jr fearsome
+LongforCastle throwback
+Madnessonimasugalaxy #thomps
+MagicGalaxy #battle
+Marioface...
+MarioOnmario World S G1
+Memoryroad #Flashback
+Mokumokuvalley #clouds monkey
+Mysterycandy sweet mystery
+OmoteuLand Flip out galaxy
+Peachcastle
+quicksandgalaxy #pyramids
+Redblueexgalaxy Neo galaxy...
+Secretathleticgalaxy #rotating
+StaffRollGalaxy #Yoshi
+Starcreekgalaxy #ocean
+Survivalgalaxy #batlle ?
+Switchmoveblock #walljump
+TemakoroPlanet #sphere1
+Tamakoroslider #rainbowsphere
+Teresalabirynth #moon
+Thunderfleet #first galaxy storm
+Timerswitchinggalaxy Beat blox
+TropicalResort #beach
+TwisterTowerGalaxy Magma monster
+Underground #underwater
+VsKoopaGravity #bowsercastlebeforefinal
+VsKoopaJrLv1 SMG1 unused
+VsKoopaJrLv3 #JrBoom
+VsKoopaLv1 #bowser1
+VsKoopaLv3 #bowserfinal
+Wanwanfactory #thompfactory
+Whitesnowgalaxy
+YosshiHomeGalaxy candy sweet neo 
+
+World 1
+Sky Station Galaxy: Islandfleetgalaxy + PeachCastle + StaffRollGalaxy
+prolo02
+05 (comet)
+prolo05
+06
+07
+boss05a
+AstroGalaxy: SMG1 observatory
+Yoshi Star Galaxy: YosshiHomeGalaxy
+32
+boss 02
+Spin-Dig Galaxy: DigMineGalaxy
+09
+boss08a
+Fluffy Bluff Galaxy: Mokumokuvalley
+07?
+Flip-Swap Galaxy: Redblueexgalaxy
+04
+Rightside Down Galaxy: AbekobeGalaxy
+03
+18 (pipe)
+Bowser Jr.'s Fiery Flotilla: VsKoopaJrLv1
+31
+boss01
+
+World 2
+Puzzle Plank Galaxy: HomeCenterGalaxy
+29
+SMG1boss01a
+Hightail Falls Galaxy: BigWaterfallG
+08
+Boulder Bowl Galaxy: GOroRockGalaxy
+09
+boss05a
+Cosmic Cove Galaxy: Starcreekgalaxy
+02
+Wild Glide Galaxy: JungleGlider
+glider
+Honeybloom Galaxy: FlowerHighland
+13
+Bowser's Lava Lair: VsKoopaLv1
+15
+
+World 3
+Tall Trunk Galaxy: ..
+mokku
+Cloudy Court Galaxy: CloudGarden
+07?
+Haunty Halls Galaxy: Ghostconveyor
+11
+Freezy Flake Galaxy: Whitesnowgalaxy
+19
+Rolling Masterpiece Galaxy: TemakoroPlanet
+...
+Beat Block Galaxy: Timerswitchinggalaxy
+Bowser Jr.'s Fearsome Fleet: KoopaJrLv2Galaxy
+31
+boss03
+
+World 4
+Supermassive Galaxy: BigGalaxy
+23
+Flipsville Galaxy: OmoteuLand
+14
+Starshine Beach Galaxy: TropicalResort
+27
+Chompworks Galaxy: Wanwanfactory
+14
+Sweet Mystery Galaxy: Mysterycandy
+10
+Honeyhop Galaxy: Honeybeevillage
+13
+Bowser's Gravity Gauntlet: VsKoopaGravity
+15
+bosos07
+
+World 5
+Space Storm Galaxy: Thunderfleet
+12
+Slipsand Galaxy: QuicksandGalaxy
+01
+...
+Shiverburn Galaxy: KachikochiLava
+16
+boss 05b
+Boo Moon Galaxy: Teresalabirynth
+11?
+Upside Dizzy Galaxy: ChaosGravity
+...
+Fleet Glide Galaxy: ChallengeGlider
+28
+Bowser Jr.'s Boom Bunker: VsKoopaJrLv3
+31
+boss06
+
+World 6
+Melty Monster Galaxy: TwisterTowerGalaxy
+30
+Clockwork Ruins Galaxy: AncientExcavationGalaxy
+01
+Throwback Galaxy: LongforCastle 
+21
+boss08a
+Battle Belt Galaxy: SurvivalGalaxy, MagicGalaxy
+12
+Flash Black Galaxy: Memoryroad
+...
+Slimy Spring Galaxy: Underground
+...
+Bowser's Galaxy Generator: VsKoopaLv3
+07?
+boss10
+
+World S
+Mario Squared Galaxy: MarioOnMario
+23
+Rolling Coaster Galaxy: 
+...
+Twisty Trials Galaxy: Secretathleticgalaxy
+23
+Stone Cyclone Galaxy: Madnessonimasugalaxy
+24b?
+Boss Blitz Galaxy: KingofKings
+inter
+...
+SMG1boss05 (hamster)
+SMG1boss09 (bouldergeist)
+SMG1boss03a (fire)
+Flip-Out Galaxy: Switchmoveblock
+04
+Grandmaster Galaxy: DimensionBigCastle
+32
+06
+astrou
+SMG2_first_astro_strm?
+SMG2_second_astro_strm
+
+Speedster
+hurry
+
+... aw file (sfx) or seq
+Not possible to convert back
+*SMG2 boss
+
+25?
+
+29 block?
+boos5 otarock
+07 bowser
+06 jr
+03 bowser jr fierce
+kinotan ?
+26 otaku madn?
+24 sweet?
+23 superm?
+22 otaku madn?
+21 throwback
+19 snow
+16 kakikochilava
+15 bowser cos
+14 flipville
+13 bees
+11 boos
+10 sweet
+9 spin dig
+7 first
+4 redex
+3 fabric?
+2 sea
+1 temple
+
+smg_
+boss 09 bouldergeist
+
+
+mokku tree
+
+my level 2st black star (the singularity)
+my level 3st gray star - skull (find inside skull, use wall jumps to get into with cheat, kill all enemies there - Brain Dead (gray star))
+my level 6st orange star (fly mode with time - 3)
+my level 5st brown star (rayman 3 reference)
+my level 4st galaxy blue star (skull parts)
+my level 1st dark star (white) (level starts with custom boss)
+phases (6): flying in closed area,respawning meramera, wall jump walls and blocks (need to beat enemies here to allow to land one hit on enemy then next setup - you get joshi), hp bar, flipping blocks underside (perma death) and over changing spawning bullets, custom model - eek browar, dialog 1
+2
+3: need also to clean coins
+4: a lot of different enemies - need to purge one type
+5: need also purple coins
+6 (pipe): timed one, a lot of enemies to jump on, tank, mexicano theme, dialog 2, spawn pipe or sth to white star
+my level 
+bowser shrek battle white star
+flip swap black star 2 - fiolet star
+jr fiery black star 3 - wstawiæ fragment z 1 levelu
+tall trunk black star - no powerups
+galaxy 69 orange star - maybe
+honeyhop pink star 
+
+bowser gravity new green star is black one
+Boo moon new one is black one
+boo moon three is purple one 
+
+niebieskie - zmodyfikowane green stary
+fioletowe - schowane pod blokami (luck star)
+pomarañczowe - przelecenie ca³ego levelu, launch stary
+granatowe - pull stary
+bia³e - luma albo pokonanie dark stara
+ciemna - dark star -> enemy (np. dodatkowe mody albo zmiana bosów)
+czarna gwiazda (osobliwoœæ) - -> eksploatowanie mechanik gier, kody, rekreacja (zmiana levelu niepo¿¹dana dla przejœcia gry i brak bonusow - efekt przegranej)
+ró¿owe - dekoracyjne
+br¹zowa - zwi¹zane z pora¿k¹
+szare - zwi¹zane z abstrakcj¹ (³¹cz¹ cechy wszystkich)
+
+blue - modified green stars
+fiolet - hidden in blocks (luck star)
+orange - fly through levels
+navy blue - pull stars
+white - luma, beaten dark star
+dark - changed bosses
+black (singular) - exploits, cheats, recreations (change of level, no bonuses as effect of failure)
+pink - decorative
+brown - failure
+gray - abstract
+
+
+Disable Black Holes
+043B4FE0 4E800020
+04387DB0 4E800020
+043C74E0 4E800020
+043BAF60 4E800020
+
+Stestowa³em wszystko
+1. Iso nie
+2. Ice workkaround jest, mo¿esz ustawiæ timer w tle który bêdzie w kó³ko siê zapêtla³ i graæ wed³ug niego jeœli s¹ z³o¿one poziomy (jak widzisz u¿ycie ice dodaj przeciwników lodowych albo thompy), prze³adowaæ save na sekcje levela i u¿yæ cheatu do gry. Gdy siê przejdzie etap, mo¿na u¿ywac whitehole do przenoszenia maria. Normalnie dochodzisz do etapu gdzie nale¿y u¿yæ ica i u¿ywasz cheata. Bug nie przeladowuje cheatow, na 2 save przeladowuje. 1. Mozesz wspomoc sie drugim savem. 2. Grasz na levelu bez latania na icie i gdy przechodzisz ice a jest np. latanie to edytujesz spawn point albo uzywasz moon jumpa. Jeœli wymaga obu, to  tak¿e edycje i improwizacja. Skaknie po lawie i przejscie wyzej potem lataniem i znowu skakanie bo jest np. rura czy cos.
+3. Transform list fly always load (jako workaround timed fly, u¿yje na swoim levelu, normalnie mo¿na se darowaæ)
+4. trza kody wy³¹czaæ przed koñcem (najlepiej
+
+1. spisz co mo¿na dokupiæ, jutro siê kupi...
+2. zagraj w zmodyfikowany level
+3. graj dalej, póŸniej za³adujemy mo¿e gravity i przejdziemy do backupów
+4. Po backupach (i TUSBC) konfiguracja
+5. nowy level
+6. git majonez ;( jo 
+
+Galaktyki do przejœcia
+Neo (W1)
+Optional New stars but willl be black stars (W2 and W4)
+Galaxy 69 (W3)
+Just a Galaxy
+Gravity
+Kaizo troll (próba...)
+Flip sWAP
+Bonus flame chamber (1000)
+Optional sand
+Master Quest
+My level (W5?) - ending scene there are also other levels
+Worms vore W6 - link to puzzled as texture 
+Puzzled W7
+Ending photo ? or sims 3 if you want
+ /StageData/YosshiHomeGalaxy/YosshiHomeGalaxyUseResource.arc
+
+Uzywajac modow mozna zamienic interesujacy nas level (pojedyncze levele, purpose) albo stworzyc kolejna instancje (caly mod) albo zachowaæ oryginaln¹ strukturê z odnosnikiem do modow
+Pozostawiæ mo¿na
+(Using mods levels can be changed (single levels, purpose) or can be created new instance (whole mod) or original structure can be keeped with reference to mods
+Can be keeped:)
+1 SB4P01 orig
+2 NMGP01
+3 orig SB4E01
+4 edit SB4E01
+5 SB4E01 mod (na czas edycji / gameplay)
+
+SMG1 bosses
+05 kret
+09 boulder 2
+
+SMG2 bosses
+05 shiver
+06 boom
+07 bowser
+08 flip swap
+09 bouldergeist
+
+YosshiHomeGalaxy
+/StageData/YosshiHomeGalaxy/YosshiHomeGalaxyMap.arc
+/YosshiHomeGalaxyScenario/ScenarioData.bcsv
+/YosshiHomeGalaxy/jmp/Placement/Common/StageObjInfo
+
+/StageData/YosshiHomeGalaxy/YosshiHomeGalaxyUseResource.arc
+/SnowCandyRailMoveStage/csv/common.bcsv
+/TestZoneStage/csv/common.bcsv
+
+YosshiHomeGalaxy
+SnowCandyBirthdayCakeZone
+SnowCandyRailMoveZone
+SnowCandyRotateMoveZone
+SnowCandyPowerUpIceZone
+MuimuiScoreLv1PlanetZone
+NeoBossOtaRockTankZone
+TestZone
+
+Dossun2
+Create scheme
+Add zone
+Select layers (A) for loading objects and depending on base for objeects (usually 2st zone).
+
+So to make zone appear in game I needed to add 
+in
+/StageData/YosshiHomeGalaxy/YosshiHomeGalaxyMap.arc
+/YosshiHomeGalaxy/jmp/Placement/Common/StageObjInfo
+
+entry
+(used to position your arc file depending on object. Can be set to 0.)
+
+in
+/StageData/YosshiHomeGalaxy/YosshiHomeGalaxyUseResource.arc
+/TestZoneStage/csv/common.bcsv
+
+this: 
+/StageData/TestZone/TestZoneMap.arc
+(replace StageData entry, this is folder with map file)
+(this handles zones for maps so you can assign one to be usable, it lists all used objects for resourcing, needed for proper placement)
+
+Now copy compatible file (1st zone arc file/that one which will load in whitehole when replaced map file). Files can fail to load. Use java jar command to see logs in cmd. Also use older/dossun bcsv editor if errors in bcsv editor will show. Zones are used for hiding objects for different stars depending on layers and arc file of zone. Zones will be loaded in size of 5000x5000x5000 (example). Layers are used to separate key objects from environment and trigger game mechanics, e.g. A for stars, O for challenges. Due to bug or sth stages that contains mapparts objects tends to fail to load but may still function (you can make map of these but won't be able to open this later when porting to another galaxy) so you would need to use new zone for modifications. It's advised to place such objects in main map file. Test always both files for errors. Don't put zones too close and not mix them.
+
+ I am going to make tutorial on youtube very soon.
+
+ViewGroups can make objects appear whenever you're in their assigned area. That can free your GPU and make game then lag less (especially spawning particles). CPU handles number of objects, up to 150-200 can be loaded flawlessly. Also Direct3d or Vulcan may help if using emulator.
+
+
+So to make zone appear in game I needed to add 
+in
+/StageData/RedBlueExGalaxy/RedBlueExGalaxyMap.arc
+/RedBlueExGalaxy/jmp/Placement/Common/StageObjInfo
+
+entry
+(used to position your arc file depending on object. Can be set to 0.)
+
+in
+/StageData/RedBlueExGalaxy/RedBlueExGalaxyUseResource.arc
+/RedBlue2Stage/csv/common.bcsv
+
+this: 
+/StageData/TestZone/TestZoneMap.arc
+(replace StageData entry, this is folder with map file)
+(this handles zones for maps so you can assign one to be usable, it lists all used objects for resourcing, needed for proper placement)
+
+It may be problem with that galaxy then, right? Or there is way to force it to load more zones? Do you know how to make bird view camera? Do I need collision to camera work?
+Problems that I am looking for resolution: 1. Trigger object to appear/disappear (not permanetly) using reverse switch controller. 2. Adding stars... (dossun scenario editor??) 3. @jhmaster2000 upload 0.6.4 dossun please it may be helpful for me, adding 2 zones to yoshii home galaxy  4. Vertical gravity control (haven't tried yet), 5. player position watcher, 6. Bird view camera 7. world map editor - edit model of galaxy add sth
+
+1. I tried to add stageObjInfo for zone to zone but then game crashes
+2. I tried replacing zone with map arc containing my zones but then whitehole not crashes but game crashes
+3. Other galaxies make whitehole crash
+What can I do? I have 5 zones + 1 my and it works. Maybe other zones load because they are in other layer related to star or associated with other scenario and generally 5 is the limit. I give up, please add sixth zone to this file and make image instructions for me, ok?
+Well it can't load more than 5 goombas from other zones in different places or too close on the same layer...
+
+Weird... I've now setted different zone for objects in other place (not other layers near, only zone related to star is there and zones are not mixed) and game seems to render 2 zones. But I set LayerB and it can sometimes disappear but mostly it sets to Common.  This must be bug. 
+
+TestZone 
+B
+TestZoneA
+
+TestZoneB
+B
+TestZoneC (Template)
+B
+
+LayerA loads for star1 and LayerB loads for star 2from scenario 2 (while star resides on LayerA and Layer O)
+
+gravity
+0 od do³u i góry
+-1 od lewej i prawej
+
+tex1_128x128_dd3fcb63a0071f96_14
+tex1_128x128_42db5ea5a2fe8e67_14
+tex1_128x128_19b177eaa0da7676_14
+
+I've done some research about sound in SMG1. I used the dumpaw.exe obtained somewhere in this website, along with the wiiscruber to extract aw file from the iso/partition1/audiores/waves. I also use a sound editing program to open the extracted wav files, and some how have to change the pitch for voice only.
+Below is my notes:
+
+Super Mario Galaxy Sound data is located in partition1/Audio Res/Waves when use wii scrubber. They are all *.aw file.
+
+*** IF dragging file to dumpaw.exe didnot work, try it again, and it will work!!!!
+
+bxxmahit_0: mostly instrument.
+b110take_0: mole voice ^^
+b112take_0: penguine voice ^^
+b113take_0: bee voice ^^
+
+b114take_0: Rosalina voice (high frequency) ('+_+) *** transform down 8 half-steps (resample, preserve neither time nor pitch).
+Also contain some voice of Luma in Mario's hat (do not transform)
+Contain mushroom voice (transform 8 pitches).
+Might contain the princess peach's "ohhh" voice (also transform 8 pitches).
+
+b115_take0: Princess Peach's voice. Some turbulence voice heard when Peach is kidnapped. (need to be transform down 8 pitches. some need only 6 pitches down o_0)
+b116take_0: contain some of the ship's sound (especially power down sound). No transform.
+b117take_0: contain some Luigi's voice (mostly like "help!", "waaahhh"). Transform down 8 pitches.
+b126goha_0: Some ambient sound (like water fall).
+b127goha_0: Sound like pig (^^). Might be bat's voice.
+b64kawa_0: REALLY big file. Most sound of the game is in here.
+file mono_0: Some ambient sound (fire hearth, water, UFO...)
+file mono_1: (same). Some LUigi sound ("with me, Luigi!). Star launching sound is located here. Even some instrument!
+file mono_2: (same). "Super Luigi Galaxy!". Some spring mario sound. Some instrument, too!
+file mono_3: "Thank you so much for playing my game!". Bird singing. Electric sound when mario is hit by electric - the most precious ELECTRIC sound (IMO). Flying sound (when mario is launched).
+file mono_4: Contain the sound you heard when the normal (not grand) powerstar appear (not when you get it). Shorter launching sound.
+file mono_5: Contain the sound of broken starbit meteorite.
+file mono_6: "Thank you for playing my game!" (Luigi). Contain the "ding" sound, book flipping sound, ambient sound of the power star (waiting for you to get).
+file mono_7: Contain starbit ambient sound.
+file mono_8: Star launch preparing sound (when you are in the starlaunch, but not shaket the wiimote yet). Falling starbit meteorite sound. Go down the pipe sound (high pitch, must be transform down 6-8 pitches).
+b65kawa_0: "Nintendo!"
+b66kawa_0: in file mono_6: contain the sound of red cannon pouring out fire. Most precious sound of firing (IMO).
+b68kawa_0: Very short sounds. Some water sounds.
+b69kawa_0: Contain Wii sounds !!!
+b70kawa_0: Contain most mario and luigi voice you heard ingame. Must be transform down 8 pitches. Among the most desirable files.
+b70kawa_1: Mario voice. kind of a separation from b70kawa_0.
+b70kawa_2: Luigi voice. Just like a separation from b70kawa_0.
+
+b72take_0: Quite big. LUMA voice HERE. Mushroom-man voice HERE. Again, it's sounds, with some instruments and voice. If it is a voice, it must be transformed 8 pitches down.
+Contain the sound of pulling star, train.
+
+b74take_0: contain the "ding" sound of pull star. Many sounds of the small UFOs (I forgot their name..., they are some tribe...)
+
+b81kawa_0: Contain some of the sci-fi sound of spaceship.
+b82kawa_0: Do you know the warping sound of Protoss building in Starcraft??? This is the HQ version of that sound!!!
+b84kawa_0: Sounds of the baby dino.
+b85kawa_0: Voice of the junior bowser (must be transformed down 8 pitches)
+b88kawa_0: Sounds when you are inside a telescope room and selecting mission (terrace, fountain, kitchen...).
+b89kawa_0: Voice of Bowsers. Some of Peach O_0 ("Help!"). Most sounds are in the battle with bowser (final battle)
+b91kawa_0: Sounds of destruction of final black hole (separated as different explosion sounds). Some siren of train. o_0
+b92kawa_0: Some Mario voice (after finishing level). Must be transformed 8 pitches down.
+b93kawa_0: Sounds of baby fire dino (probably).
+b94kawa_0: Sounds of clone Mario.
+b96kawa_0: Might be voice of Luigi after finishing level.
+b98kawa_0: "Luigi!". "Mario!".
+
+Triggery
+Coin rail 
+Unknown 3 wyœwietlanie po respawnie (view after respawn)
+Scenka powoduje wyœwietlanie po respawnie czy te¿ arena bosowa, workaround przycisk
+(Scene trigger view after respawn or also boss arena, switch workaround)
+
+? coin
+Unknown 3: 2
+Unknown 4: 0
+
+mapy
+spawn9 test
+-4 618,786
+-133,079
+-33 545,348
+
+6 654,954
+4 270,606
+4 544,318
+
+level how to workaround ? coin in specific area
+1. Timer ground pound switch
+2. Coin sw appear - sw a ground pound switch
+3. Obiekt zadaj¹cy obra¿enia/obrêcz
+4. Coin sw a sw appear obiekt zas³aniaj¹cy
+5. Inne coiny, parent group ka¿dy, extermination switch
+6. generacja powiêkszonego grzyba
+lub inna area
